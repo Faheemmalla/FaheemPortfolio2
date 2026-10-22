@@ -13,8 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kathrina Elangbam",
-  description: "Kathrina Elangbam Portfolio – aspiring software engineer & web developer",
+  title: "Faheem Yousuf Malla | AI Engineer",
+  description:
+    "Faheem Yousuf Malla's portfolio showcasing AI engineering, LLM evaluations, AI agents, RAG, and machine learning projects.",
+  openGraph: {
+    title: "Faheem Yousuf Malla | AI Engineer",
+    description:
+      "Explore Faheem's AI engineering projects, experience, and technical skills.",
+    url: "https://faheem-portfolio-fawn.vercel.app",
+    siteName: "Faheem Yousuf Malla Portfolio",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Faheem Yousuf Malla | AI Engineer",
+    description:
+      "AI Engineer working with LLMs, AI agents, RAG, and machine learning.",
+  },
   icons: {
     icon: "/k.png",
     shortcut: "/k.png",
